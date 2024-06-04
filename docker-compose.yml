@@ -36,5 +36,15 @@ services:
     depends_on:
       - guacdb
       - guacd
+  log_service:
+    container_name: log_service
+    build: ./docker-monitor
+    restart: unless-stopped
+    ports:
+      - 8085:8085
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - guacd
 volumes:
   db-data:
