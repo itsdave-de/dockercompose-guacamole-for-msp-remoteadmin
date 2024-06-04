@@ -2,15 +2,15 @@
 
 /opt/guacamole/bin/start.sh &
 
-# Esperar que o Tomcat esteja totalmente inicializado
+# Wait for Tomcat to be fully initialized
 while ! curl -sSf http://localhost:8080/guacamole >/dev/null; do
-  echo "Aguardando Tomcat iniciar..."
+  echo "Waiting for Tomcat to start..."
   sleep 2
 done
 
-# Executar o script adicional
+# Run the additional script
 /opt/guacamole/bin/inject-trigger.sh
 
-# Manter o container em execução
+# Keep the container running
 wait
 
