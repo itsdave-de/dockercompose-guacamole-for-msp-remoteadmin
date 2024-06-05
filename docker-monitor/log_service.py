@@ -69,5 +69,6 @@ if __name__ == "__main__":
     thread.start()
 
     # Keep the main thread running
+    print("Log monitoring service started")
     while True:
         time.sleep(1)
