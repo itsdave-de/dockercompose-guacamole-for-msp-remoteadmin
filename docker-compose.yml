@@ -41,7 +41,7 @@ services:
     build: ./docker-monitor
     restart: unless-stopped
     environment:
-      - FRAPPE_URL="https://luizdev.itsdave.de"
+      FRAPPE_URL: "https://luizdev.itsdave.de"
     ports:
       - 8085:8085
     volumes:
