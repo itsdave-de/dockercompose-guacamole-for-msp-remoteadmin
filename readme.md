@@ -7,6 +7,10 @@ The image was adapted to provide a service for automating connections made by Fr
 
 For this, the Guacamole [AD-Hoc extension](https://guacamole.apache.org/doc/gug/adhoc-connections.html) was used (which does not come in the default image of the Guacamole project)
 
+## Diagram of the services and their interactions
+
+![Diagram](https://git.labexposed.com/itsdave/dockercompose-guacamole-for-msp-remoteadmin/-/raw/main/diagram-docker.png)
+
 ## Requirements
 
 - Docker
