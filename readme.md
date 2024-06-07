@@ -9,7 +9,7 @@ For this, the Guacamole [AD-Hoc extension](https://guacamole.apache.org/doc/gug/
 
 ## Diagram of the services and their interactions
 
-![Diagram](https://git.labexposed.com/itsdave/dockercompose-guacamole-for-msp-remoteadmin/-/raw/main/diagram-docker.png)
+![Diagram](https://raw.githubusercontent.com/itsdave-de/dockercompose-guacamole-for-msp-remoteadmin/main/diagram-docker.png)
 
 ## Requirements
 
